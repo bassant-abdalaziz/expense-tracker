@@ -1,0 +1,73 @@
+body {
+  font-family: sans-serif;
+  background: #f7f7f7;
+  padding: 30px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.add-btn,
+form button {
+  background: #2592eb;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+form input {
+  padding: 10px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid gainsboro;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  text-align: center;
+}
+
+th,
+td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+#categoryFilter {
+  padding: 10px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid gainsboro;
+  width: 100%;
+  margin: 10px 0 20px 0;
+}
+
+.delete-btn {
+  background-color: rgb(165, 11, 11);
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracker</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <button id="openForm" class="add-btn">+ Add Expense</button>
+
+      <form id="form" class="hidden">
+        <input type="text" id="title" placeholder="Title" required />
+        <input type="number" id="amount" placeholder="Amount" required />
+        <input type="text" id="category" placeholder="Category" />
+        <input type="date" id="date" />
+        <button type="submit">Add</button>
+      </form>
+
+      <div>
+        <label>Select Category</label>
+        <select id="categoryFilter"></select>
+      </div>
+
+      <table id="table">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Amount</th>
+            <th>Category</th>
+            <th>Date</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+      <h3 id="total">Total: 0</h3>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
